@@ -2,6 +2,7 @@
 
 import { useState, FormEvent } from 'react'
 import { Inter } from 'next/font/google'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -94,15 +95,18 @@ export default function Home() {
       {/* Proof Section - Minimalist Card */}
       <div className="max-w-3xl w-full mt-32 border-t border-black pt-12">
         <h3 className="text-2xl font-bold mb-6">Đang xây dựng trên Dám Làm:</h3>
-        <div className="border border-black p-6 flex flex-col sm:flex-row justify-between items-start sm:items-center">
+        <Link href="/projects/sanday" className="border border-black p-6 flex flex-col sm:flex-row justify-between items-start sm:items-center hover:bg-gray-50 transition-colors group cursor-pointer block">
           <div>
-            <h4 className="text-xl font-bold">Sanday.vn</h4>
+            <h4 className="text-xl font-bold group-hover:underline">Sanday.vn</h4>
             <p className="text-gray-600 mt-1">Nền tảng kết nối & xếp hạng thể thao</p>
           </div>
-          <div className="mt-4 sm:mt-0 text-sm font-mono bg-gray-100 px-3 py-1 border border-black">
-            Sprint: Hoàn thiện luồng API
+          <div className="mt-4 sm:mt-0 flex items-center gap-4">
+            <div className="text-sm font-mono bg-green-100 text-green-800 px-3 py-1 border border-black">
+              Status: Live MVP
+            </div>
+            <span className="text-xl font-bold">→</span>
           </div>
-        </div>
+        </Link>
       </div>
 
     </main>
