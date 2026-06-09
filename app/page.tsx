@@ -45,7 +45,7 @@ export default function Home() {
 
       {/* Header / Logo */}
       <div className="absolute top-8 left-8">
-        <h1 className="text-xl font-bold tracking-tighter">damlam.vn</h1>
+        <h1 className="text-xl font-bold tracking-tighter">Dám làm</h1>
       </div>
 
       {/* Hero Section */}
