@@ -57,7 +57,8 @@ export default function Home() {
         </h2>
 
         <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
-          Bệ phóng thực chiến và không gian Xây Dựng Công Khai (Build in Public) dành cho những người thợ xây (makers) đích thực. Đừng để dự án tâm huyết nằm đóng bụi trong ổ cứng.
+          Build in Public dành cho những người thợ xây (makers) đích thực.<br />
+          Đừng để dự án tâm huyết nằm đóng bụi trong ổ cứng.
         </p>
 
         {/* Waitlist Form */}
